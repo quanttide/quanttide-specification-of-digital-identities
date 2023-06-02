@@ -1,0 +1,13 @@
+format: jb-book
+root: index.md
+chapters:
+  - file: ubiquitous_language/README.md
+    sections:
+      - file: ubiquitous_language/organizations.md
+  - file: domain_models/README.md
+  - file: permissions/README.md
+    sections:
+      - file: permissions/suborganization.md
+  - file: examples/README.md
+    sections:
+      - file: examples/suborganization.md
