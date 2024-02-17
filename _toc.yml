@@ -7,10 +7,13 @@ chapters:
       - file: identification/users/README.md 
         sections:
           - file: identification/users/user.md
+          - file: identification/users/user_identification.md
           - file: identification/users/user_profile.md
       - file: identification/organizations/README.md
         sections:
           - file: identification/organizations/organization.md
+          - file: identification/organizations/organization_identification.md
+          - file: identification/organizations/organization_profile.md
   - file: authorization_and_authentication/README.md
   - file: access_control/README.md
    
