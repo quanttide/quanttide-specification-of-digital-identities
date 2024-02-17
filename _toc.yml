@@ -1,9 +1,16 @@
 format: jb-book
 root: index.md
 chapters:
-  - file: users/README.md
+  - file: identification/README.md 
     sections:
-      - file: users/anonymous.md
-      - file: users/registered.md
-      - file: users/deactivated.md
-  - file: organizations/README.md
+      - file: identification/identity.md
+      - file: identification/users/README.md 
+        sections:
+          - file: identification/users/user.md
+          - file: identification/users/user_profile.md
+      - file: identification/organizations/README.md
+        sections:
+          - file: identification/organizations/organization.md
+  - file: authorization_and_authentication/README.md
+  - file: access_control/README.md
+   
