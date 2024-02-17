@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>用户鉴权状态 &#8212; 量潮数字身份标准</title>
+    <title>组织档案 &#8212; 量潮数字身份标准</title>
   
   
   
@@ -57,9 +57,11 @@
     <script async="async" src="../../_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'depreacted/domain_models/auth_user';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'identification/organizations/organization_profile';</script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="授权和鉴权" href="../../authorization_and_authentication/README.html" />
+    <link rel="prev" title="组织身份认证" href="organization_identification.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -121,8 +123,6 @@
       
       
       
-        
-      
       <div class="bd-sidebar-primary bd-sidebar">
         
 
@@ -170,19 +170,19 @@
                 </a>
             </li>
         </ul>
-        <ul class="nav bd-sidenav">
-<li class="toctree-l1 has-children"><a class="reference internal" href="../../identification/README.html">身份认证</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="../../identification/identity.html">身份</a></li>
-<li class="toctree-l2 has-children"><a class="reference internal" href="../../identification/users/README.html">用户</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
-<li class="toctree-l3"><a class="reference internal" href="../../identification/users/user.html">用户身份</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../identification/users/user_identification.html">用户身份认证</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../identification/users/user_profile.html">用户档案</a></li>
+        <ul class="current nav bd-sidenav">
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="../README.html">身份认证</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../identity.html">身份</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../users/README.html">用户</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../users/user.html">用户身份</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../users/user_identification.html">用户身份认证</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../users/user_profile.html">用户档案</a></li>
 </ul>
 </li>
-<li class="toctree-l2 has-children"><a class="reference internal" href="../../identification/organizations/README.html">组织</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-3"><i class="fa-solid fa-chevron-down"></i></label><ul>
-<li class="toctree-l3"><a class="reference internal" href="../../identification/organizations/organization.html">组织身份</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../identification/organizations/organization_identification.html">组织身份认证</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../identification/organizations/organization_profile.html">组织档案</a></li>
+<li class="toctree-l2 current active has-children"><a class="reference internal" href="README.html">组织</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-3"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="organization.html">组织身份</a></li>
+<li class="toctree-l3"><a class="reference internal" href="organization_identification.html">组织身份认证</a></li>
+<li class="toctree-l3 current active"><a class="current reference internal" href="#">组织档案</a></li>
 </ul>
 </li>
 </ul>
@@ -243,7 +243,7 @@
       
       
       
-      <li><a href="../../_sources/depreacted/domain_models/auth_user.md" target="_blank"
+      <li><a href="../../_sources/identification/organizations/organization_profile.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -314,9 +314,7 @@ document.write(`
   </button>
 `);
 </script>
-<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <span class="fa-solid fa-list"></span>
-</label>
+
 </div></div>
       
     </div>
@@ -327,23 +325,11 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>用户鉴权状态</h1>
+    <h1>组织档案</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
             
-            <div>
-                <h2> Contents </h2>
-            </div>
-            <nav aria-label="Page">
-                <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">匿名用户</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">激活用户</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">认证用户</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">员工用户</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id6">系统管理员</a></li>
-</ul>
-            </nav>
         </div>
     </div>
 </div>
@@ -354,47 +340,7 @@ document.write(`
                 <article class="bd-article">
                   
   <section class="tex2jax_ignore mathjax_ignore" id="id1">
-<h1>用户鉴权状态<a class="headerlink" href="#id1" title="Link to this heading">#</a></h1>
-<p>本部分主要用以协调作为生产者的用户服务和作为消费者的各个服务和应用（通过语言和框架级插件）的鉴权用户模型的设计。</p>
-<p>具体来说，是统一用户服务的<code class="docutils literal notranslate"><span class="pre">qtuser.models.User</span></code>、Django用户认证的<code class="docutils literal notranslate"><span class="pre">django_remote_auth.models.AuthUser</span></code>、Flutter用户组件库的<code class="docutils literal notranslate"><span class="pre">qtuser/auth.dart</span></code>的<code class="docutils literal notranslate"><span class="pre">AuthUser</span></code>这几个类，让他们在用户认证相关字段保持一致的设计逻辑。</p>
-<p>认证相关字段包括：</p>
-<ul class="simple">
-<li><p><code class="docutils literal notranslate"><span class="pre">is_anonymous</span></code>: 匿名用户标识。</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">is_active</span></code>: 激活用户标识。</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">is_authenticated</span></code>: 认证用户标识。</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">is_staff</span></code>: 员工用户标识。</p></li>
-</ul>
-<p>基于以上认证字段，我们定义如下认证用户类型。</p>
-<section id="id2">
-<h2>匿名用户<a class="headerlink" href="#id2" title="Link to this heading">#</a></h2>
-<p><code class="docutils literal notranslate"><span class="pre">is_anonymous=True</span></code>。</p>
-<p>根据Django标准，此时其他所有字段都为<code class="docutils literal notranslate"><span class="pre">False</span></code>，即匿名用户等同于未认证用户。</p>
-</section>
-<section id="id3">
-<h2>激活用户<a class="headerlink" href="#id3" title="Link to this heading">#</a></h2>
-<p><code class="docutils literal notranslate"><span class="pre">is_active=True</span></code>。</p>
-<p>此时<code class="docutils literal notranslate"><span class="pre">is_anonymous=False</span></code>，否则系统异常。</p>
-<p>默认设置<code class="docutils literal notranslate"><span class="pre">True</span></code>。通过反作弊算法控制设置为<code class="docutils literal notranslate"><span class="pre">False</span></code>，以实现相关账户安全或系统安全逻辑。通过管理后台设置<code class="docutils literal notranslate"><span class="pre">True</span></code>和<code class="docutils literal notranslate"><span class="pre">False</span></code>转换，以实现解封流程；在有相应运营规范的情况下，其他必要的业务逻辑也可授权使用此特性。</p>
-</section>
-<section id="id4">
-<h2>认证用户<a class="headerlink" href="#id4" title="Link to this heading">#</a></h2>
-<p><code class="docutils literal notranslate"><span class="pre">is_authenticated=True</span></code>。</p>
-<p>此时<code class="docutils literal notranslate"><span class="pre">is_active=True</span></code>，<code class="docutils literal notranslate"><span class="pre">is_anonymous=False</span></code>，否则系统异常。</p>
-<p>符合Django和DRF标准的认证用户，参考官方标准实现即可。</p>
-</section>
-<section id="id5">
-<h2>员工用户<a class="headerlink" href="#id5" title="Link to this heading">#</a></h2>
-<p><code class="docutils literal notranslate"><span class="pre">is_staff=True</span></code>。</p>
-<p>此时<code class="docutils literal notranslate"><span class="pre">is_active=True</span></code>，<code class="docutils literal notranslate"><span class="pre">is_authenticated=True</span></code>，<code class="docutils literal notranslate"><span class="pre">is_anonymous=False</span></code>，否则系统异常。</p>
-<p>符合Django和DRF的员工用户，参考官方标准实现，并根据企业微信需要的业务逻辑拓展。</p>
-</section>
-<section id="id6">
-<h2>系统管理员<a class="headerlink" href="#id6" title="Link to this heading">#</a></h2>
-<p><code class="docutils literal notranslate"><span class="pre">is_admin=True</span></code>。</p>
-<p>此时<code class="docutils literal notranslate"><span class="pre">is_active=True</span></code>，<code class="docutils literal notranslate"><span class="pre">is_authenticated=True</span></code>，<code class="docutils literal notranslate"><span class="pre">is_anonymous=False</span></code>，<code class="docutils literal notranslate"><span class="pre">is_staff=True</span></code>，否则系统异常。</p>
-<p>符合Django和DRF的系统管理员用户，参考官方标准实现，并且根据系统初始化需要定制。</p>
-<p><strong>请谨慎授权。</strong></p>
-</section>
+<h1>组织档案<a class="headerlink" href="#id1" title="Link to this heading">#</a></h1>
 </section>
 
     <script type="text/x-thebe-config">
@@ -410,7 +356,7 @@ document.write(`
         },
         kernelOptions: {
             name: "python3",
-            path: "./depreacted/domain_models"
+            path: "./identification/organizations"
         },
         predefinedOutput: true
     }
@@ -427,6 +373,24 @@ document.write(`
                 <footer class="prev-next-footer">
                   
 <div class="prev-next-area">
+    <a class="left-prev"
+       href="organization_identification.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">组织身份认证</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="../../authorization_and_authentication/README.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">授权和鉴权</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
 </div>
                 </footer>
               
@@ -434,24 +398,7 @@ document.write(`
             
             
               
-                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
-
-
-  <div class="sidebar-secondary-item">
-  <div class="page-toc tocsection onthispage">
-    <i class="fa-solid fa-list"></i> Contents
-  </div>
-  <nav class="bd-toc-nav page-toc">
-    <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">匿名用户</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">激活用户</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">认证用户</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">员工用户</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id6">系统管理员</a></li>
-</ul>
-  </nav></div>
-
-</div></div>
+                <div class="bd-sidebar-secondary bd-toc"></div>
               
             
           </div>
